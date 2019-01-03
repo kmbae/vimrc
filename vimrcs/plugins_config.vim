@@ -131,6 +131,7 @@ nnoremap <silent> <leader>z :Goyo<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vim-go
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:go_version_warning = 0 
 let g:go_fmt_command = "goimports"
 
 
@@ -138,7 +139,7 @@ let g:go_fmt_command = "goimports"
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Python
-let g:syntastic_python_checkers=['pyflakes']
+" let g:syntastic_python_checkers=['pyflakes']
 
 " Javascript
 let g:syntastic_javascript_checkers = ['jshint']
